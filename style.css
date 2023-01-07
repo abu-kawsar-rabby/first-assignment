@@ -33,6 +33,7 @@
 
  }
 
+
  .banner-details{
     width: 100%;
     margin: 0 100px;
@@ -165,4 +166,91 @@
     font-size: 34px;
     margin-bottom: 20px;
 
+}
+/* footer design */
+
+/* footer-container-left */
+
+
+.footer-container-left{
+    margin-left: 150px;
+}
+
+.footer-container{
+    width: 100%;
+    background: #000;
+    font-family: 'Work Sans';
+    font-style: normal;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+.footer-title{
+    width: auto;
+    font-family: 'Work Sans';
+    font-style: normal;
+    color: white;
+    font-weight: 600;
+    font-size: 34px;
+    margin: 0px;
+    
+
+}
+
+.footer-description{
+    width: 70%;
+    font-family: 'Work Sans';
+    font-style: normal;
+    color: rgb(240, 236, 236);
+    font-size: 14px;
+    line-height: 24px;
+    margin: 20px 0px;
+ 
+    
+
+ }
+
+ .email-phone-container{
+    font-family: 'Work Sans';
+    font-style: normal;
+    margin: 20px 0;
+    
+ }
+ .footer-image{
+    margin: 40px 0;
+ }
+ .gmail{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+ }
+
+
+ /* footer-container-right */
+
+.footer-container-right{
+    margin-right: 300px;
+}
+
+.email-space{
+    margin: 20px 0 15px 0;
+    padding: 10px 20px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    border-color:aliceblue;
+}
+
+ .footer-right-btn{
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    margin: 0px;
+    padding: 12px 25px;
+    background-color: rgb(1, 78, 168);
+    border-radius: 5px;
 }
