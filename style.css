@@ -12,7 +12,8 @@
     text-align: right;
     align-items: center;
     color: white;
-    
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 .banner-title{
     
@@ -24,7 +25,6 @@
 
 .description{
     font-family: 'Work Sans';
-
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -36,8 +36,11 @@
  .banner-details{
     width: 100%;
     margin: 0 100px;
+
     
 }
+
+
 .btn-contact{
     font-size: 22px;
     font-weight: bold;
@@ -50,3 +53,93 @@
 .primary-color{
     color: rgb(1, 78, 168);
 }
+
+/* desplay main design */
+.main-section{
+    width: 100%;
+    justify-content: space-between;
+}
+
+.section-top{
+    display: flex;
+    align-items: center;
+    margin: 100px;
+
+}
+.main-title{
+    
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+}
+.list-items{
+    font-family: 'Work Sans';
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 20px;
+}
+.list-item{
+    list-style: none;
+   
+}
+.list-item:before {
+    content: '\2713';
+    display: inline-block;
+    color: rgb(1, 163, 90);
+    padding: 5px;
+    margin-right: 5px;
+  }
+ 
+  /* design */
+
+
+.mid-containers{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    color: white;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 50px 100px;
+
+}
+
+.mid-title{
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: #000;
+}
+.mid-title-2{
+    margin: 5px;
+    padding: 1px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 28px;
+    color: #000;
+
+}
+.mid-description{
+    font-family: 'Work Sans';
+    color: #000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0px;
+
+ }
+
